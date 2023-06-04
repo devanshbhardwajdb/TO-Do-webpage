@@ -1,0 +1,148 @@
+body {
+    background: url('bg2.jpg')no-repeat fixed center;
+}
+*{
+    font-family: 'caladea';
+}
+
+h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    font-family: 'caladea';
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.parts {
+    display: flex;
+    flex-direction: column;
+    margin: 50 px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    height: 500px;
+    margin-left: 50px;
+
+
+}
+
+#part1 {
+    background-color: white;
+    height: 320px;
+    border-radius: 5px;
+    width: 60%;
+    padding: 20px;
+
+}
+
+.heading {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 2px solid red; */
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: 'caladea';
+    justify-content: center;
+}
+
+.h {
+    /* margin-left:80px ;
+    margin-right:80px ; */
+    /* border: 2px solid blue; */
+    text-align: center;
+
+}
+
+.box {
+    margin: 15px;
+    height: 15px;
+}
+
+#box2 {
+    height: 150px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-radius: 5px;
+    
+    
+}
+
+p {
+    text-align: center;
+    color: black;
+    max-width: 300px;
+    display: block;
+   
+}
+.btn1 {
+    cursor: pointer;
+    border: none;
+    background-color: skyblue;
+    height: 35px;
+    border-radius: 7px;
+    font-family: 'caladea';
+    font-size: 1.1rem;
+    
+}
+.btn1:hover {
+    background-color: grey;
+    color: white;  
+}
+
+input,textarea{
+    font-size:0.9rem;
+    padding: 8px;
+    border-radius: 7px;
+    font-family: 'caladea';
+    font-size: 1.1rem ;
+    resize: none;
+}
+
+
+.btn2 {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 100px;
+    background-color: rgb(211, 0, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+
+}
+.btn2:hover {
+
+    background-color: grey;
+
+    color: white;
+    
+
+}
